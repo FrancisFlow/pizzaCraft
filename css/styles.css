@@ -1,3 +1,37 @@
-body {
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-itm {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+.container-fluid {
+  background-color: red;
+  color: blue;
+}
+
+/* pizzaRow */
+
+.flexbox-item {
   background-color: green;
+  border: 2px solid blue;
+  width: 20rem;
+  height: 20rem;
+  margin: 5px;
+
+
+}
+.flexbox-container {
+  display: flex;
 }
