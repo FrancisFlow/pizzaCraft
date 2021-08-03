@@ -66,15 +66,19 @@
 /* Brief history */
 
 .brief-history {
-  background-color: #0FE8F0;
+  /* background-color: #0FE8F0; */
   text-align: center;
   padding:10px;
   font-family: fantasy;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .heading-brief-history {
   font-weight: 500;
+  font-size: 2.5rem;
+}
+.historySize {
+  font-size: 2rem;
 }
 /* answerRow */
 .answerRow {
