@@ -1,3 +1,14 @@
+.connectSocial {
+  padding: 0.4rem 2rem;
+  text-align: center;
+}
+
+.social-icon {
+  margin:0.5rem;
+}
+
+
+
 .navbar {
   padding: 0 0 2.5rem;
 }
@@ -17,7 +28,7 @@
   font-family: "Montserrat-Light";
 }
 .container-fluid {
-  background-color: red;
+  background-color: #F0170F;
   color: blue;
 }
 
@@ -27,13 +38,14 @@
   /* display: flex; */
   justify-content: center;
   /* align-items: center; */
-  background-color: green;
+  background-color: #77F00F;
   width: 20rem;
   height: 18rem;
   margin: 3px;
+}
 
-
-
+.flexbox-item form {
+  max-width: 100%;
 }
 .flexbox-container {
   display: flex;
@@ -54,6 +66,7 @@
 /* Brief history */
 
 .brief-history {
+  background-color: #0FE8F0;
   text-align: center;
   padding:10px;
   font-family: fantasy;
@@ -62,4 +75,10 @@
 
 .heading-brief-history {
   font-weight: 500;
+}
+
+/* footer */
+footer {
+  background: #880FF0;
+  padding:1.5rem;
 }
