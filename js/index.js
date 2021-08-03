@@ -23,10 +23,6 @@
 //   pizzaSizePrice[]
 
 // var x = document.getElementById("#size").value
-var size = document.querySelector("#size").value;
-var crust= document.querySelector("#crust").value;
-var toppings = document.querySelector("#toppings").value;
-
 
 function totalPrice (size, crust, toppings){
   var size = document.querySelector("#size").value;
@@ -44,7 +40,7 @@ function showSizePrice(size) {
 }
 function showCrustPrice (crust) {
     var crust= document.querySelector("#crust").value;
-    return document.querySelector("#crust-selected").innerHTML = "Price is " + crust;
+    return document.querySelector("#crust-Selected").innerHTML = "Price is " + crust;
 
 }
 function showToppingsPrice(toppings) {
