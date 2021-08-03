@@ -76,6 +76,14 @@
 .heading-brief-history {
   font-weight: 500;
 }
+/* answerRow */
+.answerRow {
+  margin: 30px 50;
+  padding: 20px;
+  background-color: #42E2B8;
+  text-align: center;
+  font-size: 2rem;
+}
 
 /* footer */
 footer {
