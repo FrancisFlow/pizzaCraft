@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <title>PizzaCraft</title>
   <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
 
   <!-- bootstrap cdn -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -117,27 +117,25 @@
             <div class="clickbutton">
               <button type="button" onclick="showToppingsPrice()" name="button">Confirm</button>
               <button type="reset" name="button">clear</button>
-              </div>
-              </form>
-               <div class="answerRow">
-                 <h3 id="toppings-selected"></h3>
+            </div>
+          </form>
+          <div class="answerRow">
+            <h3 id="toppings-selected"></h3>
           </div>
         </div>
 
         <div class="flexbox-item flexbox-item-4">
           <form class="" action="index.html" method="post">
             <input type="number" placeholder="How many Pizzas?" name="" id="quantity">
-            <h3>Would you like this delivered?</h3>
+            <label for="deliveryOption"> Would you like this delivered?</label>
             <select id="deliveryOption" class="delivery col-auto" name="">
               <option value=""></option>
-              <option value="true">Yes</option>
-              <option value="false">No</option>
-
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
             </select>
 
             <div class="clickbutton">
-              <button type="button" name="button">Confirm</button>
-              <button type="reset" name="button">clear</button>
+              <button onclick="deliverMe()" type="button" name="button">Confirm</button>
             </div>
           </form>
         </div>
@@ -145,9 +143,13 @@
           <div class="checkout-items">
 
           </div>
+          <div class="answerRow">
+            <h3 id="checkList"> </h3>
+
+          </div>
           <form class="" action="index.html" method="post">
             <div class="clickbutton">
-              <button type="button" class="btn btn-primary" name="button">Checkout</button>
+              <button type="button" onclick="showTotalPrice()" class="btn btn-primary" name="button">Checkout</button>
               <button type="reset" class="btn btn-danger" name="button">Cancel Order</button>
             </div>
           </form>
