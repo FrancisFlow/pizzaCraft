@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
   <!-- bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -16,8 +19,12 @@
 
 <body>
   <header>
-    <p>You know what you like, we craft what you'll love.</p>
-  </header>
+    <div class="connectSocial">
+    <a href="https://stackoverflow.com/users/16427030/francisflow"><i class="social-icon fab fa-stack-overflow"></i></a>
+    <i class="social-icon fab fa-twitter"></i>
+    <a href="https://www.linkedin.com/in/francis-karanja-821924216/"><i class="social-icon fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/"><i class="social-icon fab fa-github"></i></a>
+  </div>
   <main>
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -39,7 +46,7 @@
         </div>
       </nav>
     </div>
-<!-- steps -->
+    <!-- steps -->
 
     <!-- selection-options -->
 
@@ -47,9 +54,9 @@
       <div class="flexbox-item flexbox-item-1">
         <h3>Select Pizza</h3>
         <form class="" action="index.html" method="post">
-          <div class="row">
+          <div class="row col-auto">
             <select class="form-control" name="">
-                <option value="nill"></option>
+              <option value="nill"></option>
               <option value="Peparoni">Perparoni</option>
               <option value="Hawaiian">Hawaiian</option>
               <option value="Glueten-free">Gluten-free</option>
@@ -61,14 +68,14 @@
             <button type="button" name="button">Confirm</button>
             <button type="reset" name="button">clear</button>
           </div>
-          </form>
-          <div class="pizzaType">
-          </div>
+        </form>
+        <div class="pizzaType">
+        </div>
       </div>
       <div class="flexbox-item flexbox-item-2">
         <h3>Select size</h3>
         <form class="" action="index.html" method="post">
-          <div class="row">
+          <div class="row col-auto">
             <select class="form-control" name="">
               <option value="nill"></option>
               <option value="Mega">Mega</option>
@@ -90,14 +97,13 @@
       <div class="flexbox-item flexbox-item-3">
         <h3>Select Crust</h3>
         <form class="" action="index.html" method="post">
-          <div class="row">
-            <select class="form-control" name="">
-              <option value="">Perparoni</option>
-              <option value="hawaiian">Hawaiian</option>
-              <option value="">placeholder</option>
-              <option value="peparoni">Perparoni</option>
-              <option value="hawaiian">Hawaiian</option>
-              <option value="">placeholder</option>
+          <div class="row col-auto">
+            <select class="form-control" name="crust">
+              <option value=""></option>
+              <option value="Crispy">Crispy</option>
+              <option value="Stuffed">Stuffed</option>
+              <option value="Thick">Thick</option>
+              <option value="Extra-thick">Extra-thick</option>
             </select>
           </div>
           <div class="clickbutton">
@@ -105,39 +111,28 @@
             <button type="reset" name="button">clear</button>
           </div>
         </form>
+        <div class="crust-selected">
+        </div>
 
       </div>
       <div class="flexbox-item flexbox-item-4">
         <form class="" action="index.html" method="post">
-          <div class="row">
-            <select class="form-control" name="">
-              <option value="peparoni">Perparoni</option>
-              <option value="hawaiian">Hawaiian</option>
-              <option value="">placeholder</option>
-              <option value="peparoni">Perparoni</option>
-              <option value="hawaiian">Hawaiian</option>
-              <option value="">placeholder</option>
-            </select>
-          </div>
+          <h3>Would you like this delivered?</h3>
+          <select class="delivery col-auto" name="">
+            <option value=""></option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+
+          </select>
+
           <div class="clickbutton">
             <button type="button" name="button">Confirm</button>
             <button type="reset" name="button">clear</button>
           </div>
-
         </form>
-      </div>
+        </div>
       <div class="flexbox-item flexbox-item-5">
         <form class="" action="index.html" method="post">
-          <div class="row">
-            <select class="form-control" name="">
-              <option value="peparoni">Perparoni</option>
-              <option value="hawaiian">Hawaiian</option>
-              <option value="">placeholder</option>
-              <option value="peparoni">Perparoni</option>
-              <option value="hawaiian">Hawaiian</option>
-              <option value="">placeholder</option>
-            </select>
-          </div>
           <div class="clickbutton">
             <button type="button" name="button">Confirm</button>
             <button type="reset" name="button">clear</button>
@@ -162,7 +157,7 @@
 
   </main>
   <footer>
-
+  <p>&#169; 2021 FrancisNgigi🍀</p>
   </footer>
   <!-- script tags -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
