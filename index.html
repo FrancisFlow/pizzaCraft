@@ -51,32 +51,12 @@
       <!-- selection-options -->
 
       <div class="flexbox-container">
-        <div class="flexbox-item flexbox-item-1">
-          <h3>Select Pizza</h3>
-          <form class="" action="index.html" method="post">
-            <div class="row col-auto">
-              <select class="form-control" name="">
-                <option value="nill"></option>
-                <option value="Peparoni">Perparoni</option>
-                <option value="Hawaiian">Hawaiian</option>
-                <option value="Glueten-free">Gluten-free</option>
-                <option value="Periperi">Periperi</option>
-                <option value="Chicken-tika">Chicken-tika</option>
-              </select>
-            </div>
-            <div class="clickbutton">
-              <button type="button" name="button">Confirm</button>
-              <button type="reset" name="button">clear</button>
-            </div>
-          </form>
-          <div class="pizzaType">
-          </div>
-        </div>
+
         <div class="flexbox-item flexbox-item-2">
           <h3>Select size</h3>
           <form class="" action="index.html" method="post">
             <div class="row col-auto">
-              <select class="form-control" name="">
+              <select class="form-control" name="" id="size">
                 <option value="nill"></option>
                 <option value="Mega">Mega</option>
                 <option value="Large">Large</option>
@@ -98,7 +78,7 @@
           <h3>Select Crust</h3>
           <form class="" action="index.html" method="post">
             <div class="row col-auto">
-              <select class="form-control" name="crust">
+              <select class="form-control" name="crust" id="crust">
                 <option value=""></option>
                 <option value="Crispy">Crispy</option>
                 <option value="Stuffed">Stuffed</option>
@@ -115,10 +95,32 @@
           </div>
 
         </div>
+        <div class="flexbox-item flexbox-item-1">
+          <h3>Select toppings</h3>
+          <form class="" action="index.html" method="post">
+            <div class="row col-auto">
+              <select class="form-control" name="" id="toppings">
+                <option value="nill"></option>
+                <option value="Peparoni">Perparoni</option>
+                <option value="Hawaiian">Hawaiian</option>
+                <option value="Glueten-free">Gluten-free</option>
+                <option value="Periperi">Periperi</option>
+                <option value="Chicken-tika">Chicken-tika</option>
+              </select>
+            </div>
+            <div class="clickbutton">
+              <button type="button" name="button">Confirm</button>
+              <button type="reset" name="button">clear</button>
+            </div>
+          </form>
+          <div class="pizzaType">
+          </div>
+        </div>
+
         <div class="flexbox-item flexbox-item-4">
           <form class="" action="index.html" method="post">
             <h3>Would you like this delivered?</h3>
-            <select class="delivery col-auto" name="">
+            <select id="deliveryOption" class="delivery col-auto" name="">
               <option value=""></option>
               <option value="true">Yes</option>
               <option value="false">No</option>
