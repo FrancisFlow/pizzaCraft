@@ -24,14 +24,42 @@
 /* pizzaRow */
 
 .flexbox-item {
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
   background-color: green;
-  border: 2px solid blue;
   width: 20rem;
-  height: 20rem;
-  margin: 5px;
+  height: 18rem;
+  margin: 3px;
+
 
 
 }
 .flexbox-container {
   display: flex;
+  flex-direction: row;
+  overflow: inherit;
+
+}
+
+/* .option-control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+.row {
+  text-align: center;
+}
+
+/* Brief history */
+
+.brief-history {
+  text-align: center;
+  padding:10px;
+  font-family: fantasy;
+  font-weight: 400;
+}
+
+.heading-brief-history {
+  font-weight: 500;
 }
