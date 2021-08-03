@@ -28,10 +28,11 @@ function totalPrice (size, crust, toppings){
   var size = document.querySelector("#size").value;
   var crust= document.querySelector("#crust").value;
   var toppings = document.querySelector("#toppings").value;
+
   size= parseInt(size);
  crust= parseInt(crust);
  toppings= parseInt(toppings);
- return (size+crust+toppings);
+ return (size+crust+toppings)*quantity;
 }
 function showSizePrice(size) {
   var size = document.querySelector("#size").value;

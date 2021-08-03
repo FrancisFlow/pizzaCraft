@@ -74,23 +74,26 @@
 }
 
 .heading-brief-history {
+  font-family: 'Quicksand', sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
 }
 .historySize {
   font-size: 2rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 /* answerRow */
 .answerRow {
   margin: 30px 50;
   padding: 20px;
   background-color: #42E2B8;
+  font-family: fantasy;
   text-align: center;
   font-size: 2rem;
 }
 
 /* footer */
 footer {
-  background: #880FF0;
+  background: #000001;
   padding:1rem;
 }
