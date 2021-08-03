@@ -1,2 +1,3 @@
-alert("Master At Work");
-$(".mars").text("Blue");
+if (delivery=true;){
+location= prompt("What is your location");
+}
