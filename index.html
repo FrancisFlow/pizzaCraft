@@ -58,20 +58,20 @@
             <div class="row col-auto">
               <select class="form-control" name="" id="size">
                 <option value="nill"></option>
-                <option value="Mega">Mega</option>
-                <option value="Large">Large</option>
-                <option value="Medium">Medium</option>
-                <option value="Small">Small</option>
-                <option value="tiny">Tiny</option>
+                <option value="2000">Mega</option>
+                <option value="1000">Large</option>
+                <option value="800">Medium</option>
+                <option value="600">Small</option>
+                <option value="300">Tiny</option>
               </select>
             </div>
             <div class="clickbutton">
-              <button type="button" name="button">Confirm</button>
+              <button type="button" onclick="showSizePrice()" name="button">Confirm</button>
               <button type="reset" name="button">clear</button>
             </div>
           </form>
-          <div class="pizzaSize">
-
+          <div class="answerRow">
+            <h3 id="pizzaSize"></h3>
           </div>
         </div>
         <div class="flexbox-item flexbox-item-3">
@@ -80,18 +80,20 @@
             <div class="row col-auto">
               <select class="form-control" name="crust" id="crust">
                 <option value=""></option>
-                <option value="Crispy">Crispy</option>
-                <option value="Stuffed">Stuffed</option>
-                <option value="Thick">Thick</option>
-                <option value="Extra-thick">Extra-thick</option>
+                <option value="200">Crispy</option>
+                <option value="300">Stuffed</option>
+                <option value="300">Thick</option>
+                <option value="400">Extra-thick</option>
+                <option value="100">Slim-crust</option>
               </select>
             </div>
             <div class="clickbutton">
-              <button type="button" name="button">Confirm</button>
+              <button type="button" onclick="showCrustPrice()" name="button">Confirm</button>
               <button type="reset" name="button">clear</button>
             </div>
           </form>
-          <div class="crust-selected">
+          <div class="answerRow">
+            <h3 id="crust-Selected"></h3>
           </div>
 
         </div>
@@ -101,19 +103,20 @@
             <div class="row col-auto">
               <select class="form-control" name="" id="toppings">
                 <option value="nill"></option>
-                <option value="Peparoni">Perparoni</option>
-                <option value="Hawaiian">Hawaiian</option>
-                <option value="Glueten-free">Gluten-free</option>
-                <option value="Periperi">Periperi</option>
-                <option value="Chicken-tika">Chicken-tika</option>
+                <option value="200">Perparoni</option>
+                <option value="250">Hawaiian</option>
+                <option value="400">Gluten-free</option>
+                <option value="350">Periperi</option>
+                <option value="350">Chicken-tika</option>
               </select>
             </div>
             <div class="clickbutton">
-              <button type="button" name="button">Confirm</button>
+              <button type="button" onclick="showToppingsPrice()" name="button">Confirm</button>
               <button type="reset" name="button">clear</button>
-            </div>
-          </form>
-          <div class="pizzaType">
+              </div>
+              </form>
+               <div class="answerRow">
+                 <h3 id="toppings-selected"></h3>
           </div>
         </div>
 
