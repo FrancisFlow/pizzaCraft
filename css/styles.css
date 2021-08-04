@@ -39,7 +39,6 @@
 .flexbox-item {
 
   justify-content: center;
-  /* align-items: center; */
   background-color: #77F00F;
   width: 20rem;
   height: 18rem;
@@ -80,11 +79,15 @@
   font-size: 2rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+.doughjo {
+  float: left;
+}
 
 /* answerRow */
 .answerRow {
   margin: 30px 50;
   padding: 20px;
+  max-width: 100%;
   background-color: #42E2B8;
   font-family: fantasy;
   text-align: center;
