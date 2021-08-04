@@ -1,28 +1,3 @@
-//
-// var size = $("#size").value;
-// var toppings = $("#toppings").value;
-// var crust = $("#crust").value;
-// class Pizza {
-//   constractor(size, topping, crust) {
-//     this.size = size;
-//     this.topping = toppings;
-//     this.crust = crust;
-//   }
-// }
-
-// var order= new Pizza(large, Peparoni, stuffed )
-
-// var pizzaSizePrice=[1000, 800, 600, 400, 200];
-// var pizzaSize= ["Mega", "Large", "Medium", "Small", "Tiny"];
-//
-// var crustPrice =[400, 300, 200, 100, 50];
-// var crustChosen=["Peparoni", "Hawaiian"]
-// var toppings = [300, 200, 300, 400, 500];
-//
-// function totalPrice (size, toppings, crust) {
-//   pizzaSizePrice[]
-
-// var x = document.getElementById("#size").value
 
 function totalPrice(size, crust, toppings) {
   var size = document.querySelector("#size").value;
@@ -73,5 +48,8 @@ function deliverMe() {
 function checkOut() {
   if(document.querySelector("#deliveryOption").value == "Yes") {
     return document.querySelector("#deliveryTotal").innerHTML = "Delivery charge is 300";
+  }
+  else {
+    return alert("Thank you for choosing PizzaCraft.");
   }
 }
