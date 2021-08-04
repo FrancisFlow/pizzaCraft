@@ -29,10 +29,11 @@
       <a href="https://www.linkedin.com/in/francis-karanja-821924216/"><i class="social-icon fab fa-facebook fa-2x"></i></a>
       <a href="https://github.com/"><i class="social-icon fab fa-instagram fa-2x"></i></a>
     </div>
+    </header>
     <main>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="#">Pizza<span>Craft</span></a>
+          <a class="navbar-brand" href="#">Pizza<span>Craft</span> <img class="chefLogo" src="images/chef.png" alt="chefLogo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,11 +43,12 @@
                 <a class="nav-link" href="#">Order here</a>
               </li>
               <li class="list-itm">
-                <a class="nav-link" href="#">Brief history</a>
+                <a class="nav-link" href="#briefHistory">Brief history</a>
               </li>
               <li class="list-itm">
                 <a class="nav-link" href="#">Contact</a>
               </li </ul>
+
           </div>
         </nav>
       </div>
@@ -55,7 +57,6 @@
       <!-- selection-options -->
 
       <div class="flexbox-container">
-
         <div class="flexbox-item flexbox-item-1">
           <h3>Select size</h3>
           <form class="" action="index.html" method="post">
@@ -136,6 +137,7 @@
 
             <div class="clickbutton">
               <button onclick="deliverMe()" type="button" name="button">Confirm</button>
+              <button type="button" onclick="showTotalPrice()" name="button">Place order</button>
             </div>
           </form>
         </div>
@@ -145,11 +147,13 @@
           </div>
           <div class="answerRow">
             <h3 id="checkList"> </h3>
+            <h3 id="deliveryTotal"></h3>
+            <h3 id="orderPrice"></h3>
 
           </div>
           <form class="" action="index.html" method="post">
             <div class="clickbutton">
-              <button type="button" onclick="showTotalPrice()" class="btn btn-primary" name="button">Checkout</button>
+              <button type="button" onclick="checkOut()" class="btn btn-primary" name="button">Checkout</button>
               <button type="reset" class="btn btn-danger" name="button">Cancel Order</button>
             </div>
           </form>
@@ -159,7 +163,7 @@
 
       <!-- a Brief history -->
 
-      <div class="brief-history">
+      <div class="brief-history" id="briefHistory">
         <h2 class="heading-brief-history">A brief history about PizzaCraft</h2>
         <p class="historySize">
           You know what you like and we make it into something you love. If you have tried us, this goes without saying.
