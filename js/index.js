@@ -62,7 +62,7 @@ function showTotalPrice() {
 function deliverMe() {
   if (document.querySelector("#deliveryOption").value == "Yes") {
     var askLocation = prompt("Please enter delivery location");
-    return alert("Your pizza will be delivered to " + askLocation + "at 300");
+    return alert("Your pizza will be delivered to " + askLocation + " at 300");
   } else if (document.querySelector("#deliveryOption").value == "No") {
     return console.log(document.querySelector("#deliveryOption").value);
   }
