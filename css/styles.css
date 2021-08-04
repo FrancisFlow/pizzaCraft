@@ -67,6 +67,8 @@
   padding: 10px;
   font-family: fantasy;
   font-weight: 300;
+  background-image: url(../images/delivery.jpeg);
+  /* background-image: url(../dough.jpeg); */
 }
 
 .heading-brief-history {
@@ -78,9 +80,6 @@
 .historySize {
   font-size: 2rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-.doughjo {
-  float: left;
 }
 
 /* answerRow */
@@ -98,4 +97,5 @@
 footer {
   background: #000001;
   padding: 1rem;
+  color: white;
 }
