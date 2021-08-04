@@ -4,10 +4,8 @@
 }
 
 .social-icon {
-  margin:0.5rem;
+  margin: 0.5rem;
 }
-
-
 
 .navbar {
   padding: 0 0 2.5rem;
@@ -18,6 +16,10 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
+.chefLogo {
+  max-width: 7rem;
+  max-height: 7rem;
+}
 
 .nav-itm {
   padding: 0 18px;
@@ -27,15 +29,15 @@
   font-size: 1.5rem;
   font-family: "Montserrat-Light";
 }
+
 .container-fluid {
   background-color: #F0170F;
   color: blue;
 }
 
 /* pizzaRow */
-
 .flexbox-item {
-  /* display: flex; */
+
   justify-content: center;
   /* align-items: center; */
   background-color: #77F00F;
@@ -47,28 +49,23 @@
 .flexbox-item form {
   max-width: 100%;
 }
+
 .flexbox-container {
   display: flex;
   flex-direction: row;
   overflow: inherit;
-
 }
 
-/* .option-control {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-} */
 .row {
   text-align: center;
 }
 
 /* Brief history */
-
 .brief-history {
-  /* background-color: #0FE8F0; */
+  background-color: #0FE8F0;
+  margin: 30px;
   text-align: center;
-  padding:10px;
+  padding: 10px;
   font-family: fantasy;
   font-weight: 300;
 }
@@ -78,10 +75,12 @@
   font-weight: 500;
   font-size: 2.5rem;
 }
+
 .historySize {
   font-size: 2rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
 /* answerRow */
 .answerRow {
   margin: 30px 50;
@@ -95,5 +94,5 @@
 /* footer */
 footer {
   background: #000001;
-  padding:1rem;
+  padding: 1rem;
 }
