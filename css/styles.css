@@ -69,7 +69,7 @@
   font-family: fantasy;
   font-weight: 700;
   background-image: url(../images/pizzapan.jpeg);
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
