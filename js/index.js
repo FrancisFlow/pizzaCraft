@@ -62,8 +62,16 @@ function showTotalPrice() {
 function deliverMe() {
   if (document.querySelector("#deliveryOption").value == "Yes") {
     var askLocation = prompt("Please enter delivery location");
-    return askLocation;
-  } else if (document.querySelector("#deliveryOption").value=="No"){
+    return alert("Your pizza will be delivered to " + askLocation + "at 300");
+  } else if (document.querySelector("#deliveryOption").value == "No") {
     return console.log(document.querySelector("#deliveryOption").value);
+  }
+}
+
+// oncheckout
+
+function checkOut() {
+  if(document.querySelector("#deliveryOption").value == "Yes") {
+    return document.querySelector("#deliveryTotal").innerHTML = "Delivery charge is 300";
   }
 }
