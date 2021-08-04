@@ -29,160 +29,158 @@
       <a href="https://www.linkedin.com/in/francis-karanja-821924216/"><i class="social-icon fab fa-facebook fa-2x"></i></a>
       <a href="https://github.com/"><i class="social-icon fab fa-instagram fa-2x"></i></a>
     </div>
-    </header>
-    <main>
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="#">Pizza<span>Craft</span> <img class="chefLogo" src="images/chef.png" alt="chefLogo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto">
-              <li class="list-itm">
-                <a class="nav-link" href="#">Order here</a>
-              </li>
-              <li class="list-itm">
-                <a class="nav-link" href="#briefHistory">Brief history</a>
-              </li>
-              <li class="list-itm">
-                <a class="nav-link" href="#">Contact</a>
-              </li </ul>
-
-          </div>
-        </nav>
-      </div>
-      <!-- steps -->
-
-      <!-- selection-options -->
-
-      <div class="flexbox-container">
-        <div class="flexbox-item flexbox-item-1">
-          <h3>Select size</h3>
-          <form class="" action="index.html" method="post">
-            <div class="row col-auto">
-              <select class="form-control" name="" id="size">
-                <option value="nill"></option>
-                <option value="2000">Mega</option>
-                <option value="1000">Large</option>
-                <option value="800">Medium</option>
-                <option value="600">Small</option>
-                <option value="300">Tiny</option>
-              </select>
-            </div>
-            <div class="clickbutton">
-              <button type="button" onclick="showSizePrice()" name="button">Confirm</button>
-              <button type="reset" name="button">clear</button>
-            </div>
-          </form>
-          <div class="answerRow">
-            <h3 id="pizzaSize"></h3>
-          </div>
-        </div>
-        <div class="flexbox-item flexbox-item-2">
-          <h3>Select Crust</h3>
-          <form class="" action="index.html" method="post">
-            <div class="row col-auto">
-              <select class="form-control" name="crust" id="crust">
-                <option value=""></option>
-                <option value="200">Crispy</option>
-                <option value="300">Stuffed</option>
-                <option value="300">Thick</option>
-                <option value="400">Extra-thick</option>
-                <option value="100">Slim-crust</option>
-              </select>
-            </div>
-            <div class="clickbutton">
-              <button type="button" onclick="showCrustPrice()" name="button">Confirm</button>
-              <button type="reset" name="button">clear</button>
-            </div>
-          </form>
-          <div class="answerRow">
-            <h3 id="crust-Selected"></h3>
-          </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Pizza<span>Craft</span> <img class="chefLogo" src="images/chef.png" alt="chefLogo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="list-itm">
+              <a class="nav-link" href="#">Order here</a>
+            </li>
+            <li class="list-itm">
+              <a class="nav-link" href="#briefHistory">Brief history</a>
+            </li>
+            <li class="list-itm">
+              <a class="nav-link" href="#">Contact</a>
+            </li </ul>
 
         </div>
-        <div class="flexbox-item flexbox-item-3">
-          <h3>Select toppings</h3>
-          <form class="" action="index.html" method="post">
-            <div class="row col-auto">
-              <select class="form-control" name="" id="toppings">
-                <option value="nill"></option>
-                <option value="200">Perparoni</option>
-                <option value="250">Hawaiian</option>
-                <option value="400">Gluten-free</option>
-                <option value="350">Periperi</option>
-                <option value="350">Chicken-tika</option>
-              </select>
-            </div>
-            <div class="clickbutton">
-              <button type="button" onclick="showToppingsPrice()" name="button">Confirm</button>
-              <button type="reset" name="button">clear</button>
-            </div>
-          </form>
-          <div class="answerRow">
-            <h3 id="toppings-selected"></h3>
-          </div>
-        </div>
+      </nav>
+    </div>
+    <!-- steps -->
 
-        <div class="flexbox-item flexbox-item-4">
-          <form class="" action="index.html" method="post">
-            <input type="number" placeholder="How many Pizzas?" name="" id="quantity">
-            <label for="deliveryOption"> Would you like this delivered?</label>
-            <select id="deliveryOption" class="delivery col-auto" name="">
-              <option value=""></option>
-              <option value="Yes">Yes</option>
-              <option value="No">No</option>
+    <!-- selection-options -->
+
+    <div class="flexbox-container">
+      <div class="flexbox-item flexbox-item-1">
+        <h3>Select size</h3>
+        <form class="" action="index.html" method="post">
+          <div class="row col-auto">
+            <select class="form-control" name="" id="size">
+              <option value="nill"></option>
+              <option value="2000">Mega</option>
+              <option value="1000">Large</option>
+              <option value="800">Medium</option>
+              <option value="600">Small</option>
+              <option value="300">Tiny</option>
             </select>
-
-            <div class="clickbutton">
-              <button onclick="deliverMe()" type="button" name="button">Confirm</button>
-              <button type="button" onclick="showTotalPrice()" name="button">Place order</button>
-            </div>
-          </form>
+          </div>
+          <div class="clickbutton">
+            <button type="button" onclick="showSizePrice()" name="button">Confirm</button>
+            <button type="reset" name="button">clear</button>
+          </div>
+        </form>
+        <div class="answerRow">
+          <h3 id="pizzaSize"></h3>
         </div>
-        <div class="flexbox-item flexbox-item-5">
-          <div class="checkout-items">
-
+      </div>
+      <div class="flexbox-item flexbox-item-2">
+        <h3>Select Crust</h3>
+        <form class="" action="index.html" method="post">
+          <div class="row col-auto">
+            <select class="form-control" name="crust" id="crust">
+              <option value=""></option>
+              <option value="200">Crispy</option>
+              <option value="300">Stuffed</option>
+              <option value="300">Thick</option>
+              <option value="400">Extra-thick</option>
+              <option value="100">Slim-crust</option>
+            </select>
           </div>
-          <div class="answerRow">
-            <h3 id="checkList"> </h3>
-            <h3 id="deliveryTotal"></h3>
-            <h3 id="orderPrice"></h3>
-
+          <div class="clickbutton">
+            <button type="button" onclick="showCrustPrice()" name="button">Confirm</button>
+            <button type="reset" name="button">clear</button>
           </div>
-          <form class="" action="index.html" method="post">
-            <div class="clickbutton">
-              <button type="button" onclick="checkOut()" class="btn btn-primary" name="button">Checkout</button>
-              <button type="reset" class="btn btn-danger" name="button">Cancel Order</button>
-            </div>
-          </form>
+        </form>
+        <div class="answerRow">
+          <h3 id="crust-Selected"></h3>
+        </div>
 
+      </div>
+      <div class="flexbox-item flexbox-item-3">
+        <h3>Select toppings</h3>
+        <form class="" action="index.html" method="post">
+          <div class="row col-auto">
+            <select class="form-control" name="" id="toppings">
+              <option value="nill"></option>
+              <option value="200">Perparoni</option>
+              <option value="250">Hawaiian</option>
+              <option value="400">Gluten-free</option>
+              <option value="350">Periperi</option>
+              <option value="350">Chicken-tika</option>
+            </select>
+          </div>
+          <div class="clickbutton">
+            <button type="button" onclick="showToppingsPrice()" name="button">Confirm</button>
+            <button type="reset" name="button">clear</button>
+          </div>
+        </form>
+        <div class="answerRow">
+          <h3 id="toppings-selected"></h3>
         </div>
       </div>
 
-      <!-- a Brief history -->
+      <div class="flexbox-item flexbox-item-4">
+        <form class="" action="index.html" method="post">
+          <input type="number" placeholder="How many Pizzas?" name="" id="quantity">
+          <label for="deliveryOption"> Would you like this delivered?</label>
+          <select id="deliveryOption" class="delivery col-auto" name="">
+            <option value=""></option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
 
-      <div class="brief-history" id="briefHistory">
-        <h2 class="heading-brief-history">A brief history about PizzaCraft</h2>
-        <p class="historySize">
-          You know what you like and we make it into something you love. If you have tried us, this goes without saying.
-          PizzaCraft is a world-class pizza proffessional. Established in 2020, the road is long and open.
-          At PizzaCraft, we love what we do and what we do is make great pizzas. We do not make just a single pizza and sell it to you, no.
-          We ask you, what do you like? How do you like the curst? Thick? Slim? You choose, we create.
+          <div class="clickbutton">
+            <button onclick="deliverMe()" type="button" name="button">Confirm</button>
+            <button type="button" onclick="showTotalPrice()" name="button">Place order</button>
+          </div>
+        </form>
+      </div>
+      <div class="flexbox-item flexbox-item-5">
+        <div class="checkout-items">
 
-        </p>
+        </div>
+        <div class="answerRow">
+          <h3 id="checkList"> </h3>
+          <h3 id="deliveryTotal"></h3>
+          <h3 id="orderPrice"></h3>
+
+        </div>
+        <form class="" action="index.html" method="post">
+          <div class="clickbutton">
+            <button type="button" onclick="checkOut()" class="btn btn-primary" name="button">Checkout</button>
+            <button type="reset" class="btn btn-danger" name="button">Cancel Order</button>
+          </div>
+        </form>
 
       </div>
+    </div>
 
+    <!-- a Brief history -->
 
-    </main>
-    <footer>
-      <p class="connectSocial">&#169; 2021 FrancisNgigi🍀</p>
-    </footer>
-    <!-- script tags -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/index.js" charset="utf-8"></script>
+    <div class="brief-history" id="briefHistory">
+      <h2 class="heading-brief-history">A brief history about PizzaCraft</h2>
+      <p class="historySize">
+
+        You know what you like and we make it into something you love. If you have tried us, this goes without saying.
+        PizzaCraft is a world-class pizza proffessional. Established in 2020, the road is long and open.
+        At PizzaCraft, we love what we do and what we do is make great pizzas. We do not make just a single pizza and sell it to you, no.
+        We ask you, what do you like? How do you like the curst? Thick? Slim? You choose, we create.
+
+      </p>
+    </div>
+  </main>
+  <footer>
+    <p class="connectSocial">&#169; 2021 FrancisNgigi🍀</p>
+  </footer>
+  <!-- script tags -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/index.js" charset="utf-8"></script>
 </body>
 
 </html>
