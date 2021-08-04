@@ -62,14 +62,15 @@
 /* Brief history */
 .brief-history {
   background-color: #0FE8F0;
-  margin: 0 30px;
+  margin: 30px;
   text-align: center;
   color: white;
-  padding: 10px;
+  padding: 20px;
   font-family: fantasy;
   font-weight: 700;
   background-image: url(../images/pizzapan.jpeg);
   background-repeat: repeat-x;
+  background-size: cover;
   background-position: center;
 }
 
@@ -91,7 +92,7 @@
 
 /* answerRow */
 .answerRow {
-  margin: 30px 50;
+  margin: 30px;
   padding: 20px;
   max-width: 100%;
   background-color: #42E2B8;
