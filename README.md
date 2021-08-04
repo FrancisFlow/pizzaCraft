@@ -1,5 +1,6 @@
-\##PizzaCraft.
-![PizzaCraft](images/delivered.jpeg)
+## PizzaCraft.
+
+![PizzaCraft](images/deliverey.jpeg)
 
 #### A web application for PizzaCraft, an up and coming pizza place. 27th July, 2021.
 
@@ -16,7 +17,7 @@ PizzaCraft is a new little gem hidden away in Kiambu. Established in 2020, Pizza
                        _ Install Bootstrap. As like jQuery, the browser will take care of this.
                        _ A working internet connection.
                        _ A device to access the landing page from.
-                       \* Lastly, this link <https://francisflow.github.io/pizza-Craft/>
+                       \* Lastly, this link &lt;<https://francisflow.github.io/pizzacraft/>
 
 ## Known Bugs
 
@@ -29,8 +30,12 @@ As of release, no known bugs.
 -   Bootstrap framework- easier styling of content with predefined classes.
 -   JavaScript ES6- make the website responsive.
 -   jQuery library- ease the use of JavaScript by providing a shorter syntax.
+
     ## Support and contact details
+
     In case of any emerging issue, feedback, good or bad, reach out to me at francisngigi1@gmail.com. All responses are welcome.
+
     ### License
+
     _Licensed under the [MIT-LICENSE](LICENSE)_
     Copyright (c) 2021 **Francis Ngigi**
